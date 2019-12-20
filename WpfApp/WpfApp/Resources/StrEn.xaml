@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:WpfApp.Resources">
+    <s:String x:Key="Ok">Ok</s:String>
+    <s:String x:Key="Back">Back</s:String>
+    <s:String x:Key="Cancel">Cancel</s:String>
+    <s:String x:Key="Yes">Yes</s:String>
+    <s:String x:Key="No">No</s:String>
+    <s:String x:Key="Change">Change</s:String>
+</ResourceDictionary>

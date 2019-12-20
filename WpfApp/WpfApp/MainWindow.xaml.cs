@@ -24,5 +24,11 @@ namespace WpfApp
             MainViewModel vm = DataContext as MainViewModel;
             vm.Name = "haha";
         }
+
+        private void BtnTestResources_Click(object sender, RoutedEventArgs e)
+        {
+            TestResources testResources = new TestResources();
+            testResources.Show();
+        }
     }
 }

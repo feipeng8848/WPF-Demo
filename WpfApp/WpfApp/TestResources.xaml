@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp.TestResources"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="TestResources" Height="450" Width="800">
+  
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="textBlock_Name" HorizontalAlignment="Center" Margin="5" Text="{DynamicResource Ok}" FontSize="20"></TextBlock>
+            <Button  Grid.Column="1" Margin="5" Width="200"
+                Name="changeNameLang" Click="ChangeNameLang_Click" Content="{DynamicResource Change}"></Button>
+            <TextBox Text="{DynamicResource Back}"
+                     Grid.Row="1" FontSize="25" HorizontalAlignment="Center"></TextBox>
+            <RadioButton Grid.Column="1" Grid.Row="1"
+                      Margin="5" Content="{DynamicResource No}" HorizontalAlignment="Center"
+                         FontSize="20" VerticalAlignment="Center"></RadioButton>
+            <Button  Grid.Column="1" Grid.Row="2" Margin="5" Width="200"
+                Name="changeLang" Click="ChangeLang_Click" Content="{DynamicResource Change}"></Button>
+        </Grid>
+        
+        
+    </Grid>
+</Window>

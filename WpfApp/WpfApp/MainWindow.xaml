@@ -10,6 +10,7 @@
         <StackPanel>
             <Button Width="200" Height="80" Margin="10" Content="{Binding Name}" Click="Button_Click"></Button>
             <Button Width="200" Height="80" Margin="10" Content="{Binding Name}" Command="{Binding ChangeName}" Click="Button_Click"></Button>
+            <Button Width="200" Name="btnTestResources" Height="80" Margin="10" Content="测试Resources" Command="{Binding ChangeName}" Click="BtnTestResources_Click"></Button>
         </StackPanel>
     </Grid>
 </Window>
