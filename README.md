@@ -14,3 +14,7 @@ https://www.cnblogs.com/feipeng8848/p/11637217.html
 3、命令
 
 https://www.cnblogs.com/feipeng8848/p/11640306.html
+
+4、资源
+
+https://www.cnblogs.com/feipeng8848/p/12072325.html
