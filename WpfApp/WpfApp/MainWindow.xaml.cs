@@ -30,5 +30,11 @@ namespace WpfApp
             TestResources testResources = new TestResources();
             testResources.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ThemeWindow themeWindow = new ThemeWindow();
+            themeWindow.Show();
+        }
     }
 }

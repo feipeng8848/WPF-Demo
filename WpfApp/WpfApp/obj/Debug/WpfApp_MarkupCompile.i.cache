@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kun\Desktop\WPF-Demo\WpfApp\WpfApp\obj\Debug\
+D:\WorkSpace\WPF-Demo\WpfApp\WpfApp\obj\Debug\
 WpfApp
 none
 false
 DEBUG;TRACE
-C:\Users\kun\Desktop\WPF-Demo\WpfApp\WpfApp\App.xaml
-4-272144494
+D:\WorkSpace\WPF-Demo\WpfApp\WpfApp\App.xaml
+6-1190313468
 
-11-859294426
-13738642453
-MainWindow.xaml;Resources\StrEn.xaml;Resources\StrZh.xaml;TestResources.xaml;
+12459993879
+15-894914127
+MainWindow.xaml;Resources\StrEn.xaml;Resources\WindowStyle.xaml;Resources\StrZh.xaml;TestResources.xaml;ThemeWindow.xaml;
 
-False
+True
 
